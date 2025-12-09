@@ -23,8 +23,8 @@ OPTION TWO:
 
 # Clone Me
 
-- Create an account on (GitHub.com)[https://github.com] if you don't already have one.
-- Generate an SSH key: (Documentación)[https://docs.github.com/es/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key].  
+- Create an account on [GitHub.com](https://github.com) if you don't already have one.
+- Generate an SSH key: [Documentación](https://docs.github.com/es/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key).  
 - Put the public part of the key (*.pub) under 'Settings'>'SSH and GPG Keys'.
 - The private part of the key lives under `~/.ssh`.  You can use `~/.ssh/config` to choose which key you want to use for the Github server.  If you only have one key, this is not necessary
 
@@ -49,7 +49,7 @@ Let's see which implementation you are running:
 
     $ print(platform.python_implementation())
 
-The best part about Python is that lots of people use it.  And these people have created lots of useful tools and shared them with the world to use.  These tools are shared in the form of packages.  Most computing languages have a concept similar to python packages, and they all have a centralized place these packages are stored.  (PyPi)[https://pypi.org/] is the most common place for Python packages.  You will also need a way to download these packages, these tools are called package managers.  The most common and simple package manager for Python is called PIP which stands for 'Pip installs packages'.  My favorite is (Poetry)[https://python-poetry.org/], but we will start with PIP.
+The best part about Python is that lots of people use it.  And these people have created lots of useful tools and shared them with the world to use.  These tools are shared in the form of packages.  Most computing languages have a concept similar to python packages, and they all have a centralized place these packages are stored.  [PyPi](https://pypi.org/) is the most common place for Python packages.  You will also need a way to download these packages, these tools are called package managers.  The most common and simple package manager for Python is called PIP which stands for 'Pip installs packages'.  My favorite is [Poetry](https://python-poetry.org/), but we will start with PIP.
 
 PIP is installed with both installation options above.  And is either under pip or pip3.  You can type the command to check out everything that is possible with it.
 

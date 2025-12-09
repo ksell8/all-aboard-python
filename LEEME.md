@@ -22,8 +22,8 @@ OPCION DOS:
 
 # Cloname
 
-- Crea una cuenta en (GitHub.com)[https://github.com] si no ya tienes.
-- Genera una clave SSH: (Documentación)[https://docs.github.com/es/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key].  
+- Crea una cuenta en [GitHub.com](https://github.com) si no ya tienes.
+- Genera una clave SSH: [Documentación](https://docs.github.com/es/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key).  
 - Pon la parte PUBLICA (*.pub) de esa clave en 'Settings'>'SSH and GPG Keys'.
 - La parte privado queda en tu computadora en `~/.ssh`.  Tú puedes usar `~/.ssh/config` a eligir cuál clave está usando a communicar con GitHub.  Si hay solo uno, no lo es necessario.
 
@@ -53,7 +53,7 @@ print(platform.python_implementation())
 
 Lo mejor de Python es que mucha gente lo usa.  Y ellos han creado muchos útiles.  Tú puedes usar su trabajo en vez de crearlo tú mismo otra vez.
 
-Cuando gente crea código reutilizable lo comparte en un archivo que se llama el paquete.  Casi cada lenguaje de computación tiene una forma de paquete, y también tiene un lugar que tiene los paquetes.  El más común lugar de paquetes de Python se llama (PyPi)[https://pypi.org/] que significa 'Python Package Index'.  También, necesitas una manera a descargarlos.  Lo más común y sencilla es usar PIP.  PIP significa 'Pip installs Packages'.  Mi preferencia es (Poetry)[https://python-poetry.org/], pero vamos a empezar con PIP.  
+Cuando gente crea código reutilizable lo comparte en un archivo que se llama el paquete.  Casi cada lenguaje de computación tiene una forma de paquete, y también tiene un lugar que tiene los paquetes.  El más común lugar de paquetes de Python se llama [PyPi](https://pypi.org/) que significa 'Python Package Index'.  También, necesitas una manera a descargarlos.  Lo más común y sencilla es usar PIP.  PIP significa 'Pip installs Packages'.  Mi preferencia es [Poetry](https://python-poetry.org/), pero vamos a empezar con PIP.  
 
 Por defecto, PIP instala los paquetes globalmente.  No puedes tener más de una versión del mismo paquete globalmente.  Pero hay situaciónes en las que necesita una versión para un proyecto y una versión diferente para un otro. Y, por eso, hay virtual environments!  Virtual environments son un espacio aislado donde puedes instalar paquetes y ejecutar programas.
 
