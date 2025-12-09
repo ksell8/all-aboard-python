@@ -2,10 +2,11 @@
 
 Al final de esta lección, tú vas:
 
-1. Entender como Python ejecutar.
-2. Entender el paquete.
-3. ¡Instalar un paquete!
-4. ¡Ejecutar una programa de Python!
+1. Clonar y contribuir a este repositorio.
+2. Entender como Python ejecutar.
+3. Entender el paquete.
+4. ¡Instalar un paquete!
+5. ¡Ejecutar una programa de Python!
 
 # Instalación
 

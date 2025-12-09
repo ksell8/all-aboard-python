@@ -2,10 +2,11 @@
 
 By the end of this lesson you should be able to:
 
-1. Understand how python code runs.
-2. Understand what a package is.
-3. Install a package!
-4. Run a Python program!
+1. Understand how to clone and contribute to this repo.
+2. Understand how python code runs.
+3. Understand what a package is.
+4. Install a package!
+5. Run a Python program!
 
 # Installation
 
