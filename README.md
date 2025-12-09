@@ -1,3 +1,12 @@
+# Objectives
+
+By the end of this lesson you should be able to:
+
+1. Understand how python code runs.
+2. Understand what a package is.
+3. Install a package!
+4. Run a Python program!
+
 # Installation
 
 OPTION ONE:
@@ -48,7 +57,7 @@ By default PIP installs packages globally, but you can't install multiple versio
 To create a virtual environment run: 
 
     $ python3 -m venv venv
-    
+
     $ source venv/bin/activate
     
 > [!WARNING]

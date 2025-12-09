@@ -1,3 +1,12 @@
+# Objetivos
+
+Al final de esta lección, tú vas:
+
+1. Entender como Python ejecutar.
+2. Entender el paquete.
+3. ¡Instalar un paquete!
+4. ¡Ejecutar una programa de Python!
+
 # Instalación
 
 OPCION UNO:
