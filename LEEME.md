@@ -64,7 +64,9 @@ Para crear un virtual environment corre:
 
 > [!WARNING]
 > Típicamente el paquete de virtual environment está instala con python, pero si no, instala globalmente
+>
 > Usando: pip install virtualenv
+>
 > Nunca instales paquetes en la forma global excepto virtualenv
 
 Para salir:

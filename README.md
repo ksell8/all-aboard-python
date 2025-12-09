@@ -62,7 +62,9 @@ To create a virtual environment run:
     
 > [!WARNING]
 > The virtual environment library is typically installed with python, but you may need to install it globally with pip.
+>
 > Using: pip install virtualenv
+>
 > This is the ONLY package you should ever install globally.
 
 To exit:
