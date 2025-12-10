@@ -1,20 +1,20 @@
 # Objetivos
 
-Al final de esta lección, tú vas:
+Al final de esta lección, tú vas a:
 
 1. Clonar y contribuir a este repositorio.
-2. Entender como Python ejecutar.
+2. Entender cómo se ejecuta Python.
 3. Entender el paquete.
 4. ¡Instalar un paquete!
-5. ¡Ejecutar una programa de Python!
+5. ¡Ejecutar un programa de Python!
 
 # Instalación
 
-OPCION UNO:
+Opción Uno:
 
   $ xcode-select --install
 
-OPCION DOS:
+Opción Dos:
 
   $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
@@ -22,10 +22,10 @@ OPCION DOS:
 
 # Cloname
 
-- Crea una cuenta en [GitHub.com](https://github.com) si no ya tienes.
+- Crea una cuenta en [GitHub.com](https://github.com) si no tienes todavía.
 - Genera una clave SSH: [Documentación](https://docs.github.com/es/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key).  
 - Pon la parte PUBLICA (*.pub) de esa clave en 'Settings'>'SSH and GPG Keys'.
-- La parte privado queda en tu computadora en `~/.ssh`.  Tú puedes usar `~/.ssh/config` a eligir cuál clave está usando a communicar con GitHub.  Si hay solo uno, no lo es necessario.
+- La parte privada queda en tu computadora en `~/.ssh`.  Tú puedes usar `~/.ssh/config` para eligir cuál clave estás usando a para comunicarte con GitHub.  Si hay solo una, no es necessario.
 
 ```
 Host github.com
@@ -37,11 +37,11 @@ Host github.com
 
 # Usando Python
 
-Tú has eligido Python como tu luchador.  Buen eligido amigo.
+Tú has eligido Python como tu luchador.  Bien eligido amigo.
 
 Una cosa importante.  Python es muy lento.  Pero, no importa.  
 
-Sin embargo, es importante que entiendas por que es la verdad para que comprendes los debilidades de tu luchador.  Sin eso conocimiento no pueda usar Python con éxito.  Nosotros vamos a investigar en estas lecciones, pero los luchadores más rapidas trabajan con la maquina directamente, mientras Python trabaja a traves de una maquina virtual que se llama `the Python Virtual Machine`.  Hay muchos implementaciones de PVM.  Lo más común es CPython, escrito en C.  PyPy es concocido por ser un poco más rapido, pero depende del trabajo. 
+Sin embargo, es importante que entiendas porque es la verdad para que comprendes los debilidades de tu luchador.  Sin ese conocimiento no puedes usar Python con éxito.  Nosotros vamos a indagar en estas lecciones, pero los luchadores más rapidos trabajan con la maquina directamente, mientras Python trabaja a traves de una maquina virtual que se llama `the Python Virtual Machine`.  Hay muchss implementaciones de PVM.  La más común es CPython, escrito en C.  PyPy es concocida por ser un poco más rapido, pero depende del trabajo. 
 
 Veamos cuál estás usando:
 
@@ -53,18 +53,18 @@ print(platform.python_implementation())
 
 Lo mejor de Python es que mucha gente lo usa.  Y ellos han creado muchos útiles.  Tú puedes usar su trabajo en vez de crearlo tú mismo otra vez.
 
-Cuando gente crea código reutilizable lo comparte en un archivo que se llama el paquete.  Casi cada lenguaje de computación tiene una forma de paquete, y también tiene un lugar que tiene los paquetes.  El más común lugar de paquetes de Python se llama [PyPi](https://pypi.org/) que significa 'Python Package Index'.  También, necesitas una manera a descargarlos.  Lo más común y sencilla es usar PIP.  PIP significa 'Pip installs Packages'.  Mi preferencia es [Poetry](https://python-poetry.org/), pero vamos a empezar con PIP.  
+Cuando gente crea código reutilizable lo comparte en un archivo que se llama el paquete.  Casi cada lenguaje de computación tiene una forma de paquete, y también tiene un lugar que almacena los paquetes.  El lugar más común de almacenamiento de paquetes se llama [PyPi](https://pypi.org/) que significa 'Python Package Index'.  También, necesitas una manera de descargarlos.  Lo más común y sencilla es usar PIP.  PIP significa 'Pip installs Packages'.  Mi preferencia es [Poetry](https://python-poetry.org/), pero vamos a empezar con PIP.  
 
-Por defecto, PIP instala los paquetes globalmente.  No puedes tener más de una versión del mismo paquete globalmente.  Pero hay situaciónes en las que necesita una versión para un proyecto y una versión diferente para un otro. Y, por eso, hay virtual environments!  Virtual environments son un espacio aislado donde puedes instalar paquetes y ejecutar programas.
+Por defecto, PIP instala los paquetes globalmente.  No puedes tener más de una versión del mismo paquete globalmente.  Pero hay situaciónes en las que necesita una versión para un proyecto y una versión diferente para un otro. Y, por eso, hay entornos virtuales!  Entornos virtuales son un espacio aislado donde puedes instalar paquetes y ejecutar programas.
 
-Para crear un virtual environment corre:
+Para crear un entorno virtual corre:
 
   $ python3 -m venv venv
 
   $ source venv/bin/activate
 
 > [!WARNING]
-> Típicamente el paquete de virtual environment está instala con python, pero si no, instala globalmente
+> Típicamente el paquete virtualenv está instalado con python, pero si no, instala globalmente
 >
 > Usando: pip install virtualenv
 >
