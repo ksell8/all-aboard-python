@@ -22,9 +22,7 @@ PyCharm crea un entorno virtual por cada proyecto abre.  Pero, puedes cambiar el
 Entonces elige 'Add New Interpreter'>'Select Existing' y en 'Python Path' elige el binario de python en la carpeta de tu entorno virtual.
 ![Cambiando el Python](imgs/changing-interpreter.png "Cambiando el Python")
 
-Necesitas instalar los requisitos en el etorno virtual de IDE para correr las pruebas.  Hazlo de la misma manera en la lección uno.  Recuerda, es muy importante que los requistos estén en el etorno virtual que se muestra debajo y a la derecha del texto.
-
-Después de instalarlos.
+Necesitas instalar los requisitos en el etorno virtual de IDE para correr las pruebas y hacer esta lección.  Hazlo de la misma manera en la lección uno.  Recuerda, es muy importante que los requistos estén en el etorno virtual que se muestra debajo y a la derecha del texto.
 
 ![La Depuradora](imgs/debug.png "La Depuradora")
 En la carpeta 'sample/test' hay test_sort_dicts.py.  En el margen hay un botón verde.  Círculos rojos están en el margen también.  Puedes poner un círculo en una línea a decir PyCharm a perar en está línea y demonstrar los valores de los variables y la pila de llamadas por las funciones del programa.
