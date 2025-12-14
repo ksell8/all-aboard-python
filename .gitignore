@@ -6,3 +6,7 @@
 # ides
 .idea
 .vscode
+
+# python
+__pycache__/
+*.py[cod]
