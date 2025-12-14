@@ -49,7 +49,7 @@ Let's see which implementation you are running:
 
     $ print(platform.python_implementation())
 
-The best part about Python is that lots of people use it.  And these people have created lots of useful tools and shared them with the world to use.  These tools are shared in the form of packages.  Most computing languages have a concept similar to python packages, and they all have a centralized place these packages are stored.  [PyPi](https://pypi.org/) is the most common place for Python packages.  You will also need a way to download these packages, these tools are called package managers.  The most common and simple package manager for Python is called PIP which stands for 'Pip installs packages'.  My favorite is [Poetry](https://python-poetry.org/), but we will start with PIP.
+The best part about Python is that lots of people use it.  And these people have created lots of useful tools and shared them with the world to use.  These tools are shared in the form of packages.  Most computing languages have a concept similar to python packages, and they all have a centralized place these packages are stored.  [PyPi](https://pypi.org/) is the most common place for Python packages.  You will also need a way to download these packages, these tools are called package managers.  The most common and simple package manager for Python is called PIP which stands for 'Pip installs packages'.  My favorite is [Poetry](https://python-poetry.org/), but we will start with PIP.  I'm too far behind, apparently [UV](https://docs.astral.sh/uv/) is now where it's at.
 
 PIP is installed with both installation options above.  And is either under pip or pip3.  You can type the command to check out everything that is possible with it.
 

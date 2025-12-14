@@ -53,7 +53,7 @@ print(platform.python_implementation())
 
 Lo mejor de Python es que mucha gente lo usa.  Y ellos han creado muchos útiles.  Tú puedes usar su trabajo en vez de crearlo tú mismo otra vez.
 
-Cuando gente crea código reutilizable lo comparte en un archivo que se llama el paquete.  Casi cada lenguaje de computación tiene una forma de paquete, y también tiene un lugar que almacena los paquetes.  El lugar más común de almacenamiento de paquetes se llama [PyPi](https://pypi.org/) que significa 'Python Package Index'.  También, necesitas una manera de descargarlos.  Lo más común y sencilla es usar PIP.  PIP significa 'Pip installs Packages'.  Mi preferencia es [Poetry](https://python-poetry.org/), pero vamos a empezar con PIP.  
+Cuando gente crea código reutilizable lo comparte en un archivo que se llama el paquete.  Casi cada lenguaje de computación tiene una forma de paquete, y también tiene un lugar que almacena los paquetes.  El lugar más común de almacenamiento de paquetes se llama [PyPi](https://pypi.org/) que significa 'Python Package Index'.  También, necesitas una manera de descargarlos.  Lo más común y sencilla es usar PIP.  PIP significa 'Pip installs Packages'.  Mi preferencia es [Poetry](https://python-poetry.org/), pero vamos a empezar con PIP.  Ahora, [UV](https://docs.astral.sh/uv/) es lo mejor.  Todo cambia muy rápidamente en la ciencia de computación.
 
 Por defecto, PIP instala los paquetes globalmente.  No puedes tener más de una versión del mismo paquete globalmente.  Pero hay situaciónes en las que necesita una versión para un proyecto y una versión diferente para un otro. Y, por eso, hay entornos virtuales!  Entornos virtuales son un espacio aislado donde puedes instalar paquetes y ejecutar programas.
 

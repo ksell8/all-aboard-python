@@ -1,1 +1,8 @@
-*/venv
+**/.venv
+**/venv
+
+
+
+# ides
+.idea
+.vscode
