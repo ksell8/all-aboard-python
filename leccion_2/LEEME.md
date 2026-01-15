@@ -39,7 +39,7 @@ def func(entrada):
     return salida
 ```
 
-# Apriétalo el Botón
+# Apriétalo, el Botón
 
 Apriétalo el botón verde a lado de `class TestSortDictsByKey`.
 
