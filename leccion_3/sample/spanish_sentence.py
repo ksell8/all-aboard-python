@@ -7,6 +7,7 @@ from pydantic import BaseModel, field_validator
 from typing import Optional
 
 
+# Enum es una clase especial en la que definen todos los valores posibles
 class VerbEnding(str, Enum):
     """Spanish infinitive verb endings."""
     AR = "ar"
