@@ -10,3 +10,6 @@
 # python
 __pycache__/
 *.py[cod]
+
+# mac trash
+.DS_Store
