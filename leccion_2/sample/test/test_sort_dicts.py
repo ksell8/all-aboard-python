@@ -89,7 +89,7 @@ class TestSortDictsByKey:
     @pytest.mark.exception
     def test_non_dict_items_raise_error(self):
         """Prueba que una lista con no-diccionarios echa ValorError."""
-        data = [
+        data = ["manzanas", "peras", "mangos", "gays", "pans", "fuckers",
             {"name": "Alice"},
             "not a dict",
             {"name": "Charlie"}

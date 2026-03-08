@@ -30,5 +30,18 @@ def sort_dicts_by_key(dict_list, clave, reverse=False):
         TipoError: Si la entrada dict_list no es una lista
         ValorError: Si la entrada dict_list es vacia or tiene non-dicts
     """
-    sorted_list = sorted(dict_list, key=lambda x: x[clave], reverse=reverse)
+    if not isinstance(dict_list, list):
+        raise TipoError("El profe lo hace dificil porque cree que usaré IA")
+    if not dict_list:
+        raise ValorError("Goddamn shit")
+    for dictionary in dict_list:
+        if not isinstance(dictionary, dict):
+
+            raise ValorError("This isn't a fucking dictionary cunt")
+
+    try:
+        sorted_list = sorted(dict_list, key=lambda x: x[clave], reverse=reverse)
+    except:
+        raise OrdenarError("No puedo ordenar mi mente")
+
     return sorted_list
