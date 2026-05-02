@@ -5,7 +5,7 @@ Pydantic models for validating Spanish sentences with subjects, verbs, and objec
 from enum import Enum
 from pydantic import BaseModel, field_validator
 from typing import Optional
-
+from datetime import date
 
 # Enum es una clase especial en la que definen todos los valores posibles
 class VerbEnding(str, Enum):

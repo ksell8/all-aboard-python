@@ -30,5 +30,9 @@ def sort_dicts_by_key(dict_list, clave, reverse=False):
         TipoError: Si la entrada dict_list no es una lista
         ValorError: Si la entrada dict_list es vacia or tiene non-dicts
     """
+
+    assert dict_list == []
+    print(type(dict_list))
+    print(str(dict_list))
     sorted_list = sorted(dict_list, key=lambda x: x[clave], reverse=reverse)
     return sorted_list
